@@ -22,13 +22,13 @@
 
 #[Codelegy](www.codelegy.xyz)
 Web app to connect people looking to pair-program
-- Created a pair-programming network site using Agile Development to allow continuous integration of new features.
-- AngularJS app using Ruby on Rails as an API featuring customized mailboxer gem, omniauth, and Devise.
+- Created, with a team of 6 developers, a pair-programming network site using Agile Development to allow continuous integration of new features.
+- AngularJS app using Ruby on Rails as an API featuring customized mailboxer gem for email subscription, Omniauth for external website logins, and Devise.
 
 ##Technical Highlights
 -developed a networking web app to find people to pair program and learn with.  This is a Ruby on Rails application with angularJS on the Front End, Continuous Integration with TravisCI, OmniAuth, and email subscription.
 -worked on a team of 6 people
--personally worked on emailing using mailboxer gem, and API for angular FE
+-personally worked on emails and subscriptions using mailboxer gem
 
 
 #[Danebook](www.github.com/aliceFung/danebook)
