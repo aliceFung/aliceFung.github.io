@@ -1,0 +1,70 @@
+<%= render :partial =>'shared/header' %>
+
+
+<section class="bg-primary" id="about">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">About Me</h2>
+            <hr class="light">
+            <p>I love poking at puzzles, creating things, and immersing myself in code and possibilities.</p>
+            <%= link_to "Github", "https://github.com/alicefung",class: "btn btn-default btn-xl"%>
+            <%= link_to "LinkedIn", "https://www.linkedin.com/in/aliceofung", class: "btn btn-default btn-xl"%>
+            <%= link_to "Resume", "#", class: "btn btn-default btn-xl" %>
+            <%= link_to "Tumblr", "http://alice-codes.tumblr.com/", class: "btn btn-default btn-xl"%>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+  <div class="container-fluid">
+      <div class="row no-gutter">
+        <div class="col-lg-6 col-sm-6">
+            <a href="https://github.com/mikebutts/team3project" class="portfolio-box">
+              <%= image_tag "concert-2.jpg", class:"img-responsive" %>
+              <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                      <div class="project-category text-faded">
+                          Geocode user location to find nearby music events
+                      </div>
+                      <div class="project-name">
+                          Concerts Near You
+                      </div>
+                  </div>
+              </div>
+            </a>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+            <a href="https://github.com/aliceFung/danebook" class="portfolio-box">
+              <%= image_tag "objects.jpg", class:"img-responsive" %>
+              <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                      <div class="project-category text-faded">
+                          A Facebook Clone
+                      </div>
+                      <div class="project-name">
+                          Danebook
+                      </div>
+                  </div>
+              </div>
+            </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+<aside class="bg-dark" id="contact">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2 class="section-heading">We Should Get In Touch!</h2>
+                <hr class="primary">
+                <p></p>
+            <%= mail_to "info@alicefung.org" do %>
+                <button class ="btn btn-default btn-xl wow tada">Email
+                </button>
+            <% end %>
+        </div>
+    </div>
+</aside>
